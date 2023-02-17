@@ -1,8 +1,6 @@
 .container {
   height: 92.5vh;
-  width: 90vw;
-  margin-top: 30px;
-  margin-right: 18px;
+  width: 80vw;
   border-radius: 50px;
 
   background: rgba(255, 255, 255, 0.25);
@@ -10,4 +8,28 @@
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.texts {
+  padding: 20px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 8rem;
+  color: aliceblue;
+}
+
+h3 {
+  font-size: 3rem;
+  color: aliceblue;
+}
+
+p {
+  font-size: 1.5rem;
+  color: aliceblue;
 }

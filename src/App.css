@@ -4,9 +4,20 @@
 }
 
 .App {
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: transparent;
   background-image: url("./assets/keyboard.jpg");
   background-size: cover;
+}
+
+div.navbar > nav {
+  margin: 30px;
+}
+
+.sidecard {
+  top: 3.5vh;
+  left: 3.5vw;
 }

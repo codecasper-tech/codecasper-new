@@ -1,8 +1,8 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
-  background-image: url("./assets/keyboard.jpg");
-  background-size: cover;
+  /* background-image: url("./assets/keyboard.jpg");
+  background-size: cover; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -11,3 +11,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+}
