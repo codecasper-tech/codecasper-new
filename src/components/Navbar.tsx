@@ -23,7 +23,7 @@ function Navbar() {
   
 
   return (
-    <nav className="m l bottom" id="navbar">
+    <nav className="m l left" id="navbar">
       <NavLink to="/">
         <img className="circle" src={codecasper} />
       </NavLink>
