@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import "./GlassCard.css";
-import fb from "../assets/icons/fb_png.png";
+import fb from "../assets/icons/Facebook-removebg-preview.png";
 import insta from "../assets/icons/insta.png";
 import twit from "../assets/icons/twitter.png";
 import linkedin from "../assets/icons/LinkedIn_icon_circle.svg.png";
