@@ -3,6 +3,9 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
+import Aboutus from "./pages/Aboutus";
+import Payments from "./pages/Payments";
+import FindMore from "./pages/FindMore";
 
 function App() {
 
@@ -11,6 +14,18 @@ function App() {
 			path: "/",
 			element: <Home />,
 		},
+    {
+      path: "/aboutus",
+      element: <Aboutus />,
+    },
+    {
+      path: "/payments",
+      element: <Payments />,
+    },
+    {
+      path: "/findmore",
+      element: <FindMore />,
+    },
 		{
 			path: "*",
 			element: <NotFound />,

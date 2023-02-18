@@ -1,32 +1,48 @@
 import "./Navbar.css"
 import codecasper from "../assets/codecasper.png"
+import { NavLink } from "react-router-dom";
+import { useEffect } from "react";
 
 function Navbar() {
+
+  // function windowRatio(x: MediaQueryList) {
+  //   const nav = document.getElementById("navbar");
+  //   if (x.matches) {
+  //     nav?.classList.remove("left");
+  //     nav?.classList.remove("bottom");
+  //   } else {
+  //     // do something
+  //   }
+  // }
+
+  // useEffect(() => {
+  //   var x = window.matchMedia("(min-width: 480px)");
+  //   windowRatio(x);
+  
+  // }, [window.innerWidth])
+  
+
   return (
-    <nav className="m l left">
-      <a>
+    <nav className="m l bottom" id="navbar">
+      <NavLink to="/">
         <img className="circle" src={codecasper} />
-      </a>
-      <a>
+      </NavLink>
+      <NavLink to="/">
         <i>home</i>
         <span>Home</span>
-      </a>
-      <a>
+      </NavLink>
+      <NavLink to="/aboutus">
         <i>widgets</i>
         <span>About Us</span>
-      </a>
-      <a>
-        <i>arrow_back</i>
+      </NavLink>
+      <NavLink to="/payments">
+        <i>paid</i>
         <span>Payments</span>
-      </a>
-      <a>
-        <i>arrow_forward</i>
-        <span>Right</span>
-      </a>
-      <a>
-        <i>code</i>
-        <span>Code</span>
-      </a>
+      </NavLink>
+      <NavLink to="/findmore">
+        <i>more</i>
+        <span>Find More</span>
+      </NavLink>
     </nav>
   );
 }

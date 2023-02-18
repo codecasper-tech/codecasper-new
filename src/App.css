@@ -11,6 +11,7 @@
   background-color: transparent;
   background-image: url("./assets/keyboard.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 div.navbar > nav {
